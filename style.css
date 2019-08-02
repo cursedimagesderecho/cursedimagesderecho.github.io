@@ -32,7 +32,10 @@ body {
     color:white;
     font-size: 32px;
     margin: 0;
-    font-family:Helvetica LT Std, Lato, sans-serif;}
+    font-family:Helvetica LT Std, Lato, sans-serif;
+ background-image: url("lo.png");
+
+}
 
 @media screen and (max-width: 641px) {
     body {font-size: 28px;}
