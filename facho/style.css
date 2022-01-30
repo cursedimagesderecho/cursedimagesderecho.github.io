@@ -1,0 +1,104 @@
+@font-face {	
+    font-family: 'ab_dentregular';
+    src: url('https://nefasto.cl/wp-content/themes/hemingway/ab_dent_by_iii_wildcard_iii-webfont.eot');
+    src: url('https://nefasto.cl/wp-content/themes/hemingway/ab_dent_by_iii_wildcard_iii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://nefasto.cl/wp-content/themes/hemingway/ab_dent_by_iii_wildcard_iii-webfont.woff') format('woff'),
+         url('https://nefasto.cl/wp-content/themes/hemingway/ab_dent_by_iii_wildcard_iii-webfont.ttf') format('truetype'),
+         url('https://nefasto.cl/wp-content/themes/hemingway/ab_dent_by_iii_wildcard_iii-webfont.svg#ab_dentregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@media screen and (max-width: 640px) {*/
+    html {
+        background: url("https://escepticismopoemasyliteratura.files.wordpress.com/2014/09/aliens.jpg") no-repeat center center fixed;
+/*    }
+}
+@media screen and (min-width: 641px) {
+    html {
+        background: url("https://escepticismopoemasyliteratura.files.wordpress.com/2014/09/aliens.jpg") no-repeat center center fixed;
+    }
+}
+html {	*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    
+}
+body {
+    color:white;
+    font-size: 32px;
+    margin: 0;
+    font-family:Helvetica LT Std, Lato, sans-serif;
+
+
+}
+
+@media screen and (max-width: 641px) {
+    body {font-size: 28px;}
+    .zy {font-size: 0.7;}
+    .otra { font-size: 0.9;}
+}
+
+a {color: white; text-decoration: none;}
+a:hover {text-decoration: underline; }
+
+.zz {right:0;}
+.yy {left:0; padding-left: 15px;}
+.zy {padding-bottom: 5px; color: white; font-size: 0.6em; position: absolute; transform:scale(0.9,1);  bottom: 0; text-align: right; line-height: 27px;}
+.zy iframe, .zy div {vertical-align:sub; margin-right: -5px;}
+.ab {padding: 15px; text-transform: uppercase; font-weight: bold;}
+#aa {background-color: black;}
+#bb {background-color: red; color: black;}
+
+.arribalader {padding-bottom: 15px; color: white; font-size: 0.6em; position: absolute; transform:scale(0.9,1);  top: 0;left:0; font-size:12px}
+
+#cont {height: 100%; width: 100%; position: absolute;  background-image: url("lo-min.png");    background-size: cover;background-color: rgba(0,0,0,0.3);}
+#contf {position: absolute; text-align: center; top: 30%; height: 2em; margin-top: -1em; width: 96%; line-height: 70px;}
+.atras {line-height: 54px; font-size: 0.9em; display: table;}
+#titulo {font-family:ab_dentregular,Raleway, sans-serif; line-height: 30px; display: table-cell; padding: 20px;}
+.invisible {display: none;}
+
+@media screen and (min-width: 791px) {
+    .invisible {display: inline;}
+}
+.nefasto {top:0; right:0; position: absolute;}
+.nefasto img {width: 50%; height: auto; float: right;}
+
+
+.atras img {
+    width: 24px;
+    height: 24px;
+    padding: 15px;
+    vertical-align: bottom;
+}
+@media screen and (min-width: 545px) {
+    .atras img {width: 32px;
+    height: 32px;
+    padding: 20px;}
+    .atras {line-height: 72px; }
+}
+.sombra {
+    -webkit-filter: drop-shadow( 1px 1px 2px rgba(0,0,0,1) );
+    -moz-filter: drop-shadow( 1px 1px 2px rgba(0,0,0,1) );
+    filter: drop-shadow( 1px 1px 2px rgba(0,0,0,1) );
+}
+.otra {font-size: 0.8em;}
+.otra a {font-weight: bold; text-decoration: underline;}
+.otra a:hover {color: yellow;}
+
+
+
+
+.logo {font-family:ab_dentregular,Raleway, sans-serif;}
+#aviso {}
+
+@media screen and (max-width: 500px) {
+.ab {font-size: 0.65em; }
+#contf {line-height: 60px;}
+    }
+@media screen and (max-width: 319px) {
+    .atras {line-height: 72px;}
+}
