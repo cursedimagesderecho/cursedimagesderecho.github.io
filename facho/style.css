@@ -55,7 +55,7 @@ a:hover {text-decoration: underline; }
 
 .arribalader {padding-bottom: 15px; color: white; font-size: 0.6em; position: absolute; transform:scale(0.9,1);  top: 0;left:0; font-size:12px}
 
-#cont {height: 100%; width: 100%; position: absolute;  background-image: url("lo-min.png");    background-size: cover;background-color: rgba(0,0,0,0.3);}
+#cont {height: 100%; width: 100%; position: absolute;  background-image: url("lo-min.jpg");    background-size: cover;background-color: rgba(0,0,0,0.3);}
 #contf {position: absolute; text-align: center; top: 30%; height: 2em; margin-top: -1em; width: 96%; line-height: 70px;}
 .atras {line-height: 54px; font-size: 0.9em; display: table;}
 #titulo {font-family:ab_dentregular,Raleway, sans-serif; line-height: 30px; display: table-cell; padding: 20px;}
